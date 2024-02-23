@@ -1,0 +1,210 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #f2f0f1;
+    color: black;
+    font-family: sans-serif;
+}
+
+nav
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100px;
+}
+
+#Header
+{
+    width: 100%;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 5px;
+}
+
+#NavContent
+{
+    background-color: white;
+    color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+
+#NavContent ul
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+#NavContent ul li:hover
+{   
+    cursor: pointer;
+    color: gray;
+}
+
+#SearchBar
+{
+    /* border: 1PX SOLID RED; */
+    width: 30%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#SearchBar input
+{
+    width: 100%;
+    padding: 8px 25px;
+    padding-right: 40px;
+    border: none;
+    background-color: #f2f0f1;
+    border-radius: 25px;
+    outline: none ;
+    font-size: 18px;
+}
+
+#SearchBar img
+{
+    position: absolute;
+    right: 10px;
+
+}
+
+#NavIcons
+{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+#NavIcons img
+{
+    width: 25px;
+    height: 25px;
+}
+
+
+main
+{
+    height: calc(100vh - 100px);
+    display: flex;
+    
+}
+
+#First
+{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+
+#FContent
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    /* text-align: center; */
+    position: relative;
+    top: 100px;
+    
+}
+
+#FContent h2
+{
+    padding-left: 60px;
+
+    width: 70%;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+#Fp
+{
+    width: 70%;
+    text-align: center;
+    color: gray;
+    padding-left: 70px;
+    margin-top: 20px;
+
+}
+
+
+#FContent button
+{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    height: 45px;
+    margin-top: 30px;
+    margin-left: 65px;
+}
+
+#Info
+{
+    /* border: 1px solid red; */
+    margin-top: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info
+{
+    /* border: 1px solid gray; */
+    border-right: 1px solid black;
+    padding-right: 30px;
+}
+
+
+.info h3{
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.info p
+{
+    font-size: 20px;
+    color: gray;
+}
+
+#Second
+{
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Second img{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    object-position: center;
+}

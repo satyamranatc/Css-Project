@@ -1,0 +1,221 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #f2f0f1;
+    color: black;
+    font-family: sans-serif;
+    /* overflow: hidden; */
+}
+
+nav
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+    z-index: 10;
+}
+
+#Header
+{
+    width: 100%;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 5px;
+}
+
+#NavContent
+{
+    background-color: white;
+    color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+
+#NavContent ul
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+#NavContent ul li:hover
+{   
+    cursor: pointer;
+    color: gray;
+}
+
+#SearchBar
+{
+    /* border: 1PX SOLID RED; */
+    width: 30%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#SearchBar input
+{
+    width: 100%;
+    padding: 8px 25px;
+    padding-right: 40px;
+    border: none;
+    background-color: #f2f0f1;
+    border-radius: 25px;
+    outline: none ;
+    font-size: 18px;
+}
+
+#SearchBar img
+{
+    position: absolute;
+    right: 10px;
+
+}
+
+#NavIcons
+{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+#NavIcons img
+{
+    width: 25px;
+    height: 25px;
+}
+
+main
+{
+    height: fit-content;
+    padding: 20px;
+    /* border: 5px solid gold; */
+
+    position: relative;
+    top: 100px;
+
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 20px;
+
+}
+
+
+.card
+{
+    display: flex;
+    flex-direction: column;
+    height: 470px;
+    min-width: 350px;
+ 
+    flex: 1;
+    /* border: 1px solid red; */
+    box-shadow: 0px 10px 20px gray;
+}
+
+
+.CardThumbnail
+{
+    height: 50%;
+    width: 100%;
+    
+}
+
+.CardThumbnail img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.CardContent
+{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.ContentInfo
+{
+    margin-top: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding: 10px; */
+}
+
+.ContentInfo p:first-of-type
+{
+    font-size: 25px;
+    font-weight: 100;
+
+
+}
+.ContentInfo p:last-of-type
+{
+    width: 80%;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    color: gray;
+
+}
+
+
+.Btns
+{
+    display: flex;
+    column-gap: 10px;
+    padding-bottom: 20px;
+}
+
+.Btns button:first-of-type
+{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 140px;
+    height: 35px;
+    margin-top: 30px;
+
+}
+.Btns button:last-of-type
+{
+    background-color: rgb(216, 214, 214);
+    color: black;
+    border: none;
+    border-radius: 30px;
+    width: 140px;
+    height: 35px;
+    margin-top: 30px;
+  
+}
